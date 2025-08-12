@@ -1,53 +1,66 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/dPE_WcyC)
-# Título do repositório
+# 🥗 Simulador de Dieta e Calorias
 
-Descrição curta do repositório.
+**Simulador de Dieta e Calorias** é um software desenvolvido seguindo o **Modelo Incremental** de Engenharia de Software.  
+O objetivo é permitir que usuários planejem suas dietas, calculem calorias diárias e acompanhem o histórico de consumo alimentar, com uma **interface intuitiva** e armazenamento de dados em **JSON**.
 
-## Sumário
+---
 
-* [Pré-requisitos](#pré-requisitos)
-* [Instalação](#instalação)
-* [Instruções de uso](#instruções-de-uso)
-* [Contato](#contato)
-* [Bibliografia](#bibliografia)
+## 📌 1. Visão Geral
 
-## Pré-requisitos
+O sistema possibilita:
+- Cadastro de alimentos e refeições.
+- Cálculo automático de calorias, macronutrientes e micronutrientes.
+- Definição de metas diárias.
+- Histórico de consumo e progresso.
+- Salvamento e carregamento de dados em **JSON** para fácil portabilidade.
 
-Descreva aqui brevemente os pré-requisitos necessários para executar o código-fonte. Descreva também
-a configuração mínima da máquina em que o código foi desenvolvido, e se alguma configuração em particular é essencial
-para sua execução (por exemplo, placa de vídeo dedicada):
+---
 
-| Configuração        | Valor                    |
-|---------------------|--------------------------|
-| Sistema operacional | Windows 10 Pro (64 bits) |
-| Processador         | Intel core i7 9700       |
-| Memória RAM         | 16GB                     |
-| Necessita rede?     | Sim                      |
+## ⚙️ 2. Modelo de Desenvolvimento: Incremental
 
+O projeto será construído **em ciclos incrementais**, permitindo entregas parciais e funcionais em cada fase.
 
-## Instalação
+| Incremento | Funcionalidades | Objetivo |
+|------------|-----------------|----------|
+| **1** | Estrutura base, cadastro simples de alimentos, cálculo de calorias. | Disponibilizar núcleo funcional. |
+| **2** | Inclusão de refeições, metas diárias e interface aprimorada. | Melhorar experiência do usuário. |
+| **3** | Histórico de consumo e gráficos de progresso. | Adicionar acompanhamento visual. |
+| **4** | Exportação/importação de dados em JSON. | Garantir persistência e portabilidade. |
+| **5** | Ajustes finais, responsividade e testes. | Preparar para deploy e uso real. |
 
-Descreva aqui as instruções para instalação das ferramentas para execução do código-fonte: 
+---
 
-```bash
-sudo apt-get install nano
-```
+## 🛠️ 3. Tecnologias Utilizadas
+- **Protótipo:** Aplicativo Figma
+- **Frontend:** HTML5, CSS3, Bootstrap JavaScript (Vanilla ou Framework como React).
+- **Persistência:** JSON (armazenado localmente ou via API).
+- **Controle de Versão:** Git + GitHub.
+- **Design:** Interface intuitiva com foco em usabilidade.
+- **Gráficos:** Biblioteca como Chart.js (opcional).
 
-## Instruções de Uso
+---
 
-Descreva aqui o passo-a-passo que outros usuários precisam realizar para conseguir executar com sucesso o código-fonte
-deste projeto:
+## 🗂️ 4. Estrutura de Dados (JSON)
 
-```bash
-echo "olá mundo!"
-```
+Exemplo de como os dados serão salvos:
 
-## Contato
-
-O repositório foi originalmente desenvolvido por Fulano: [fulano@ufsm.br]()
-
-## Bibliografia
-
-Adicione aqui entradas numa lista com a documentação pertinente:
-
-* [Documentação coplin-db2](https://pypi.org/project/coplin-db2/)
+```json
+{
+  "usuario": {
+    "nome": "João Silva",
+    "meta_calorias": 2000
+  },
+  "refeicoes": [
+    {
+      "data": "2025-08-11",
+      "itens": [
+        { "alimento": "Arroz", "quantidade_g": 150, "calorias": 200 },
+        { "alimento": "Frango", "quantidade_g": 100, "calorias": 165 }
+      ],
+      "total_calorias": 365
+    }
+  ],
+  "historico": [
+    { "data": "2025-08-10", "total_calorias": 1850 }
+  ]
+}
