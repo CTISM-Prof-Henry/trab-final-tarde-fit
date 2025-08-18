@@ -37,7 +37,7 @@ O projeto será construído **em ciclos incrementais**, permitindo entregas parc
 - **Controle de Versão:** Git + GitHub.
 - **Design:** Interface intuitiva com foco em usabilidade.
 - **Gráficos:** Biblioteca como Chart.js (opcional).
-- ** Cores :
+- ** Cores **:
 - Laranja (#FF7043) – energia, metabolismo, movimento.
 
 Verde Limão (#9CCC65) – vitalidade, frescor.
@@ -46,7 +46,7 @@ Turquesa (#4DD0E1) – inovação, leveza.
 
 Branco (#FAFAFA) – clareza.
 
-Cinza Médio (#9E9E9E) – contraste elegante. **
+Cinza Médio (#9E9E9E) – contraste elegante. 
 
 ---
 
