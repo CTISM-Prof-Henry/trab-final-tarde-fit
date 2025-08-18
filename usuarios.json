@@ -1,0 +1,2104 @@
+{
+  "usuarios": [
+    {
+      "nome": "Pedro Henrique Campos",
+      "peso": 52.2,
+      "altura": 1.72,
+      "idade": 68,
+      "meta_calorias": 2554,
+      "macro_nutrientes": {
+        "proteina_g": 61,
+        "carboidratos_g": 305,
+        "gorduras_g": 66,
+        "fibras_g": 23
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.8,
+        "calcio_mg": 834,
+        "vitamina_c_mg": 64,
+        "vitamina_d_ug": 15,
+        "potassio_mg": 3690,
+        "sodio_mg": 1284
+      }
+    },
+    {
+      "nome": "João Guilherme da Costa",
+      "peso": 91.2,
+      "altura": 1.85,
+      "idade": 20,
+      "meta_calorias": 2659,
+      "macro_nutrientes": {
+        "proteina_g": 171,
+        "carboidratos_g": 192,
+        "gorduras_g": 71,
+        "fibras_g": 27
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 16.3,
+        "calcio_mg": 1140,
+        "vitamina_c_mg": 85,
+        "vitamina_d_ug": 9,
+        "potassio_mg": 2751,
+        "sodio_mg": 2181
+      }
+    },
+    {
+      "nome": "Luana Oliveira",
+      "peso": 94.6,
+      "altura": 1.84,
+      "idade": 63,
+      "meta_calorias": 2012,
+      "macro_nutrientes": {
+        "proteina_g": 173,
+        "carboidratos_g": 272,
+        "gorduras_g": 45,
+        "fibras_g": 38
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.3,
+        "calcio_mg": 933,
+        "vitamina_c_mg": 94,
+        "vitamina_d_ug": 13,
+        "potassio_mg": 3537,
+        "sodio_mg": 1634
+      }
+    },
+    {
+      "nome": "Dra. Laura Fogaça",
+      "peso": 84.6,
+      "altura": 1.81,
+      "idade": 68,
+      "meta_calorias": 2233,
+      "macro_nutrientes": {
+        "proteina_g": 100,
+        "carboidratos_g": 381,
+        "gorduras_g": 48,
+        "fibras_g": 26
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 10.4,
+        "calcio_mg": 802,
+        "vitamina_c_mg": 120,
+        "vitamina_d_ug": 5,
+        "potassio_mg": 4677,
+        "sodio_mg": 2121
+      }
+    },
+    {
+      "nome": "Sr. Juan da Mata",
+      "peso": 107.8,
+      "altura": 1.92,
+      "idade": 25,
+      "meta_calorias": 2172,
+      "macro_nutrientes": {
+        "proteina_g": 76,
+        "carboidratos_g": 384,
+        "gorduras_g": 50,
+        "fibras_g": 22
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 11.8,
+        "calcio_mg": 1043,
+        "vitamina_c_mg": 87,
+        "vitamina_d_ug": 19,
+        "potassio_mg": 3531,
+        "sodio_mg": 1552
+      }
+    },
+    {
+      "nome": "Alícia Sales",
+      "peso": 71.0,
+      "altura": 1.89,
+      "idade": 39,
+      "meta_calorias": 2304,
+      "macro_nutrientes": {
+        "proteina_g": 131,
+        "carboidratos_g": 213,
+        "gorduras_g": 41,
+        "fibras_g": 26
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.2,
+        "calcio_mg": 1120,
+        "vitamina_c_mg": 72,
+        "vitamina_d_ug": 15,
+        "potassio_mg": 4575,
+        "sodio_mg": 2105
+      }
+    },
+    {
+      "nome": "Kevin Costa",
+      "peso": 58.4,
+      "altura": 1.77,
+      "idade": 53,
+      "meta_calorias": 2717,
+      "macro_nutrientes": {
+        "proteina_g": 97,
+        "carboidratos_g": 317,
+        "gorduras_g": 63,
+        "fibras_g": 31
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.4,
+        "calcio_mg": 986,
+        "vitamina_c_mg": 109,
+        "vitamina_d_ug": 12,
+        "potassio_mg": 3730,
+        "sodio_mg": 2290
+      }
+    },
+    {
+      "nome": "Mariana Pereira",
+      "peso": 101.5,
+      "altura": 1.8,
+      "idade": 55,
+      "meta_calorias": 1714,
+      "macro_nutrientes": {
+        "proteina_g": 77,
+        "carboidratos_g": 245,
+        "gorduras_g": 63,
+        "fibras_g": 33
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 10.0,
+        "calcio_mg": 1195,
+        "vitamina_c_mg": 120,
+        "vitamina_d_ug": 16,
+        "potassio_mg": 2902,
+        "sodio_mg": 1476
+      }
+    },
+    {
+      "nome": "Dra. Maria Luiza da Rocha",
+      "peso": 77.0,
+      "altura": 1.65,
+      "idade": 25,
+      "meta_calorias": 1616,
+      "macro_nutrientes": {
+        "proteina_g": 71,
+        "carboidratos_g": 318,
+        "gorduras_g": 88,
+        "fibras_g": 26
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 8.2,
+        "calcio_mg": 902,
+        "vitamina_c_mg": 89,
+        "vitamina_d_ug": 15,
+        "potassio_mg": 4177,
+        "sodio_mg": 1907
+      }
+    },
+    {
+      "nome": "Valentina Farias",
+      "peso": 104.9,
+      "altura": 1.69,
+      "idade": 45,
+      "meta_calorias": 2345,
+      "macro_nutrientes": {
+        "proteina_g": 108,
+        "carboidratos_g": 158,
+        "gorduras_g": 51,
+        "fibras_g": 19
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 8.8,
+        "calcio_mg": 901,
+        "vitamina_c_mg": 94,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 4435,
+        "sodio_mg": 1546
+      }
+    },
+    {
+      "nome": "Mariane Castro",
+      "peso": 66.8,
+      "altura": 1.62,
+      "idade": 36,
+      "meta_calorias": 2552,
+      "macro_nutrientes": {
+        "proteina_g": 81,
+        "carboidratos_g": 373,
+        "gorduras_g": 58,
+        "fibras_g": 31
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 17.9,
+        "calcio_mg": 1065,
+        "vitamina_c_mg": 96,
+        "vitamina_d_ug": 14,
+        "potassio_mg": 3007,
+        "sodio_mg": 2186
+      }
+    },
+    {
+      "nome": "Sra. Mirella Martins",
+      "peso": 82.1,
+      "altura": 1.73,
+      "idade": 62,
+      "meta_calorias": 2268,
+      "macro_nutrientes": {
+        "proteina_g": 73,
+        "carboidratos_g": 368,
+        "gorduras_g": 91,
+        "fibras_g": 17
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.7,
+        "calcio_mg": 834,
+        "vitamina_c_mg": 101,
+        "vitamina_d_ug": 9,
+        "potassio_mg": 4454,
+        "sodio_mg": 2294
+      }
+    },
+    {
+      "nome": "Guilherme Campos",
+      "peso": 92.4,
+      "altura": 1.85,
+      "idade": 37,
+      "meta_calorias": 2205,
+      "macro_nutrientes": {
+        "proteina_g": 157,
+        "carboidratos_g": 397,
+        "gorduras_g": 47,
+        "fibras_g": 40
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 10.0,
+        "calcio_mg": 996,
+        "vitamina_c_mg": 66,
+        "vitamina_d_ug": 9,
+        "potassio_mg": 4436,
+        "sodio_mg": 2101
+      }
+    },
+    {
+      "nome": "Isabella Jesus",
+      "peso": 83.5,
+      "altura": 1.71,
+      "idade": 60,
+      "meta_calorias": 2033,
+      "macro_nutrientes": {
+        "proteina_g": 61,
+        "carboidratos_g": 175,
+        "gorduras_g": 55,
+        "fibras_g": 15
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 9.6,
+        "calcio_mg": 1195,
+        "vitamina_c_mg": 76,
+        "vitamina_d_ug": 7,
+        "potassio_mg": 2721,
+        "sodio_mg": 1590
+      }
+    },
+    {
+      "nome": "Maysa Nascimento",
+      "peso": 52.5,
+      "altura": 1.65,
+      "idade": 18,
+      "meta_calorias": 2460,
+      "macro_nutrientes": {
+        "proteina_g": 176,
+        "carboidratos_g": 191,
+        "gorduras_g": 82,
+        "fibras_g": 31
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.1,
+        "calcio_mg": 1126,
+        "vitamina_c_mg": 85,
+        "vitamina_d_ug": 14,
+        "potassio_mg": 3310,
+        "sodio_mg": 1665
+      }
+    },
+    {
+      "nome": "Lucas Gabriel Gonçalves",
+      "peso": 101.5,
+      "altura": 1.75,
+      "idade": 61,
+      "meta_calorias": 2172,
+      "macro_nutrientes": {
+        "proteina_g": 77,
+        "carboidratos_g": 380,
+        "gorduras_g": 44,
+        "fibras_g": 37
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 12.3,
+        "calcio_mg": 1092,
+        "vitamina_c_mg": 90,
+        "vitamina_d_ug": 10,
+        "potassio_mg": 3520,
+        "sodio_mg": 2115
+      }
+    },
+    {
+      "nome": "João Gabriel Aragão",
+      "peso": 106.9,
+      "altura": 1.65,
+      "idade": 56,
+      "meta_calorias": 1938,
+      "macro_nutrientes": {
+        "proteina_g": 115,
+        "carboidratos_g": 285,
+        "gorduras_g": 96,
+        "fibras_g": 24
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 16.9,
+        "calcio_mg": 960,
+        "vitamina_c_mg": 90,
+        "vitamina_d_ug": 19,
+        "potassio_mg": 3582,
+        "sodio_mg": 1339
+      }
+    },
+    {
+      "nome": "Dra. Vitória Pereira",
+      "peso": 85.8,
+      "altura": 1.94,
+      "idade": 62,
+      "meta_calorias": 1885,
+      "macro_nutrientes": {
+        "proteina_g": 156,
+        "carboidratos_g": 219,
+        "gorduras_g": 41,
+        "fibras_g": 21
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.4,
+        "calcio_mg": 1153,
+        "vitamina_c_mg": 86,
+        "vitamina_d_ug": 7,
+        "potassio_mg": 2614,
+        "sodio_mg": 1959
+      }
+    },
+    {
+      "nome": "Srta. Alice Silveira",
+      "peso": 59.4,
+      "altura": 1.58,
+      "idade": 55,
+      "meta_calorias": 2126,
+      "macro_nutrientes": {
+        "proteina_g": 57,
+        "carboidratos_g": 361,
+        "gorduras_g": 93,
+        "fibras_g": 26
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.7,
+        "calcio_mg": 800,
+        "vitamina_c_mg": 115,
+        "vitamina_d_ug": 16,
+        "potassio_mg": 3880,
+        "sodio_mg": 2222
+      }
+    },
+    {
+      "nome": "Sra. Isadora Costela",
+      "peso": 97.7,
+      "altura": 1.69,
+      "idade": 70,
+      "meta_calorias": 2500,
+      "macro_nutrientes": {
+        "proteina_g": 96,
+        "carboidratos_g": 303,
+        "gorduras_g": 67,
+        "fibras_g": 21
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.0,
+        "calcio_mg": 1195,
+        "vitamina_c_mg": 60,
+        "vitamina_d_ug": 11,
+        "potassio_mg": 2725,
+        "sodio_mg": 1491
+      }
+    },
+    {
+      "nome": "Giovanna Pires",
+      "peso": 50.6,
+      "altura": 1.6,
+      "idade": 68,
+      "meta_calorias": 2081,
+      "macro_nutrientes": {
+        "proteina_g": 87,
+        "carboidratos_g": 208,
+        "gorduras_g": 86,
+        "fibras_g": 25
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.4,
+        "calcio_mg": 897,
+        "vitamina_c_mg": 117,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 2767,
+        "sodio_mg": 2108
+      }
+    },
+    {
+      "nome": "Evelyn Costa",
+      "peso": 50.2,
+      "altura": 1.76,
+      "idade": 35,
+      "meta_calorias": 2208,
+      "macro_nutrientes": {
+        "proteina_g": 89,
+        "carboidratos_g": 244,
+        "gorduras_g": 54,
+        "fibras_g": 16
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 17.2,
+        "calcio_mg": 1007,
+        "vitamina_c_mg": 107,
+        "vitamina_d_ug": 14,
+        "potassio_mg": 3671,
+        "sodio_mg": 2091
+      }
+    },
+    {
+      "nome": "Ryan Campos",
+      "peso": 79.7,
+      "altura": 1.61,
+      "idade": 64,
+      "meta_calorias": 2522,
+      "macro_nutrientes": {
+        "proteina_g": 180,
+        "carboidratos_g": 241,
+        "gorduras_g": 40,
+        "fibras_g": 21
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 10.8,
+        "calcio_mg": 977,
+        "vitamina_c_mg": 114,
+        "vitamina_d_ug": 17,
+        "potassio_mg": 4093,
+        "sodio_mg": 1384
+      }
+    },
+    {
+      "nome": "Murilo Pereira",
+      "peso": 91.9,
+      "altura": 1.8,
+      "idade": 64,
+      "meta_calorias": 2735,
+      "macro_nutrientes": {
+        "proteina_g": 59,
+        "carboidratos_g": 297,
+        "gorduras_g": 74,
+        "fibras_g": 29
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 9.0,
+        "calcio_mg": 1132,
+        "vitamina_c_mg": 76,
+        "vitamina_d_ug": 17,
+        "potassio_mg": 4223,
+        "sodio_mg": 2205
+      }
+    },
+    {
+      "nome": "Nathan Cunha",
+      "peso": 85.0,
+      "altura": 1.72,
+      "idade": 29,
+      "meta_calorias": 2211,
+      "macro_nutrientes": {
+        "proteina_g": 67,
+        "carboidratos_g": 393,
+        "gorduras_g": 62,
+        "fibras_g": 40
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 8.7,
+        "calcio_mg": 1041,
+        "vitamina_c_mg": 107,
+        "vitamina_d_ug": 17,
+        "potassio_mg": 3767,
+        "sodio_mg": 1280
+      }
+    },
+    {
+      "nome": "Ana Laura Pereira",
+      "peso": 69.3,
+      "altura": 1.79,
+      "idade": 41,
+      "meta_calorias": 2164,
+      "macro_nutrientes": {
+        "proteina_g": 76,
+        "carboidratos_g": 398,
+        "gorduras_g": 64,
+        "fibras_g": 28
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 17.7,
+        "calcio_mg": 982,
+        "vitamina_c_mg": 102,
+        "vitamina_d_ug": 6,
+        "potassio_mg": 2849,
+        "sodio_mg": 1962
+      }
+    },
+    {
+      "nome": "Leonardo Rodrigues",
+      "peso": 80.2,
+      "altura": 1.88,
+      "idade": 44,
+      "meta_calorias": 2946,
+      "macro_nutrientes": {
+        "proteina_g": 176,
+        "carboidratos_g": 349,
+        "gorduras_g": 95,
+        "fibras_g": 21
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 16.0,
+        "calcio_mg": 899,
+        "vitamina_c_mg": 83,
+        "vitamina_d_ug": 16,
+        "potassio_mg": 3476,
+        "sodio_mg": 1562
+      }
+    },
+    {
+      "nome": "Marcos Vinicius Nascimento",
+      "peso": 103.1,
+      "altura": 1.93,
+      "idade": 27,
+      "meta_calorias": 2256,
+      "macro_nutrientes": {
+        "proteina_g": 76,
+        "carboidratos_g": 385,
+        "gorduras_g": 41,
+        "fibras_g": 15
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 8.1,
+        "calcio_mg": 1199,
+        "vitamina_c_mg": 61,
+        "vitamina_d_ug": 9,
+        "potassio_mg": 3551,
+        "sodio_mg": 1994
+      }
+    },
+    {
+      "nome": "Vinicius Almeida",
+      "peso": 80.2,
+      "altura": 1.59,
+      "idade": 61,
+      "meta_calorias": 2683,
+      "macro_nutrientes": {
+        "proteina_g": 83,
+        "carboidratos_g": 377,
+        "gorduras_g": 56,
+        "fibras_g": 19
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 16.7,
+        "calcio_mg": 981,
+        "vitamina_c_mg": 65,
+        "vitamina_d_ug": 19,
+        "potassio_mg": 2962,
+        "sodio_mg": 1838
+      }
+    },
+    {
+      "nome": "Maitê Vieira",
+      "peso": 64.9,
+      "altura": 1.95,
+      "idade": 20,
+      "meta_calorias": 2604,
+      "macro_nutrientes": {
+        "proteina_g": 118,
+        "carboidratos_g": 171,
+        "gorduras_g": 78,
+        "fibras_g": 35
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.4,
+        "calcio_mg": 1071,
+        "vitamina_c_mg": 68,
+        "vitamina_d_ug": 5,
+        "potassio_mg": 2661,
+        "sodio_mg": 2051
+      }
+    },
+    {
+      "nome": "Valentina Moura",
+      "peso": 71.5,
+      "altura": 1.91,
+      "idade": 65,
+      "meta_calorias": 2277,
+      "macro_nutrientes": {
+        "proteina_g": 86,
+        "carboidratos_g": 286,
+        "gorduras_g": 77,
+        "fibras_g": 38
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 11.3,
+        "calcio_mg": 1024,
+        "vitamina_c_mg": 84,
+        "vitamina_d_ug": 12,
+        "potassio_mg": 3619,
+        "sodio_mg": 1482
+      }
+    },
+    {
+      "nome": "Enrico da Costa",
+      "peso": 96.9,
+      "altura": 1.68,
+      "idade": 23,
+      "meta_calorias": 2446,
+      "macro_nutrientes": {
+        "proteina_g": 50,
+        "carboidratos_g": 286,
+        "gorduras_g": 89,
+        "fibras_g": 27
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 12.8,
+        "calcio_mg": 1097,
+        "vitamina_c_mg": 73,
+        "vitamina_d_ug": 5,
+        "potassio_mg": 3524,
+        "sodio_mg": 1408
+      }
+    },
+    {
+      "nome": "Brenda Ribeiro",
+      "peso": 91.2,
+      "altura": 1.86,
+      "idade": 35,
+      "meta_calorias": 2470,
+      "macro_nutrientes": {
+        "proteina_g": 92,
+        "carboidratos_g": 190,
+        "gorduras_g": 43,
+        "fibras_g": 28
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 11.8,
+        "calcio_mg": 800,
+        "vitamina_c_mg": 89,
+        "vitamina_d_ug": 18,
+        "potassio_mg": 3593,
+        "sodio_mg": 1449
+      }
+    },
+    {
+      "nome": "João Miguel Silva",
+      "peso": 67.4,
+      "altura": 1.75,
+      "idade": 65,
+      "meta_calorias": 2908,
+      "macro_nutrientes": {
+        "proteina_g": 163,
+        "carboidratos_g": 294,
+        "gorduras_g": 76,
+        "fibras_g": 25
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.2,
+        "calcio_mg": 1082,
+        "vitamina_c_mg": 118,
+        "vitamina_d_ug": 11,
+        "potassio_mg": 3379,
+        "sodio_mg": 2288
+      }
+    },
+    {
+      "nome": "Davi Lucca Peixoto",
+      "peso": 97.9,
+      "altura": 1.83,
+      "idade": 65,
+      "meta_calorias": 2777,
+      "macro_nutrientes": {
+        "proteina_g": 178,
+        "carboidratos_g": 358,
+        "gorduras_g": 96,
+        "fibras_g": 36
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 9.3,
+        "calcio_mg": 1166,
+        "vitamina_c_mg": 106,
+        "vitamina_d_ug": 7,
+        "potassio_mg": 2579,
+        "sodio_mg": 1801
+      }
+    },
+    {
+      "nome": "Pedro Lucas Novaes",
+      "peso": 84.9,
+      "altura": 1.89,
+      "idade": 47,
+      "meta_calorias": 2061,
+      "macro_nutrientes": {
+        "proteina_g": 75,
+        "carboidratos_g": 370,
+        "gorduras_g": 82,
+        "fibras_g": 37
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 17.7,
+        "calcio_mg": 1025,
+        "vitamina_c_mg": 105,
+        "vitamina_d_ug": 9,
+        "potassio_mg": 2813,
+        "sodio_mg": 2081
+      }
+    },
+    {
+      "nome": "Dr. Thales Cardoso",
+      "peso": 65.3,
+      "altura": 1.61,
+      "idade": 57,
+      "meta_calorias": 2648,
+      "macro_nutrientes": {
+        "proteina_g": 134,
+        "carboidratos_g": 306,
+        "gorduras_g": 51,
+        "fibras_g": 30
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 11.7,
+        "calcio_mg": 951,
+        "vitamina_c_mg": 66,
+        "vitamina_d_ug": 7,
+        "potassio_mg": 3439,
+        "sodio_mg": 2289
+      }
+    },
+    {
+      "nome": "Dr. Pedro Cunha",
+      "peso": 83.2,
+      "altura": 1.89,
+      "idade": 27,
+      "meta_calorias": 2907,
+      "macro_nutrientes": {
+        "proteina_g": 106,
+        "carboidratos_g": 195,
+        "gorduras_g": 88,
+        "fibras_g": 29
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 8.6,
+        "calcio_mg": 1083,
+        "vitamina_c_mg": 85,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 3360,
+        "sodio_mg": 2068
+      }
+    },
+    {
+      "nome": "Maria Sophia Pereira",
+      "peso": 91.9,
+      "altura": 1.78,
+      "idade": 49,
+      "meta_calorias": 1878,
+      "macro_nutrientes": {
+        "proteina_g": 54,
+        "carboidratos_g": 267,
+        "gorduras_g": 85,
+        "fibras_g": 26
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.5,
+        "calcio_mg": 890,
+        "vitamina_c_mg": 114,
+        "vitamina_d_ug": 9,
+        "potassio_mg": 4323,
+        "sodio_mg": 1434
+      }
+    },
+    {
+      "nome": "Srta. Maitê Teixeira",
+      "peso": 57.5,
+      "altura": 1.56,
+      "idade": 69,
+      "meta_calorias": 1628,
+      "macro_nutrientes": {
+        "proteina_g": 74,
+        "carboidratos_g": 160,
+        "gorduras_g": 80,
+        "fibras_g": 16
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.0,
+        "calcio_mg": 902,
+        "vitamina_c_mg": 78,
+        "vitamina_d_ug": 7,
+        "potassio_mg": 4198,
+        "sodio_mg": 2030
+      }
+    },
+    {
+      "nome": "Eduardo Rocha",
+      "peso": 109.7,
+      "altura": 1.62,
+      "idade": 18,
+      "meta_calorias": 2745,
+      "macro_nutrientes": {
+        "proteina_g": 126,
+        "carboidratos_g": 361,
+        "gorduras_g": 51,
+        "fibras_g": 36
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.5,
+        "calcio_mg": 1188,
+        "vitamina_c_mg": 106,
+        "vitamina_d_ug": 8,
+        "potassio_mg": 3175,
+        "sodio_mg": 1374
+      }
+    },
+    {
+      "nome": "Carlos Eduardo Alves",
+      "peso": 61.5,
+      "altura": 1.88,
+      "idade": 21,
+      "meta_calorias": 2642,
+      "macro_nutrientes": {
+        "proteina_g": 61,
+        "carboidratos_g": 324,
+        "gorduras_g": 89,
+        "fibras_g": 36
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.2,
+        "calcio_mg": 1192,
+        "vitamina_c_mg": 94,
+        "vitamina_d_ug": 8,
+        "potassio_mg": 3935,
+        "sodio_mg": 2139
+      }
+    },
+    {
+      "nome": "Milena Cardoso",
+      "peso": 64.3,
+      "altura": 1.59,
+      "idade": 22,
+      "meta_calorias": 2490,
+      "macro_nutrientes": {
+        "proteina_g": 180,
+        "carboidratos_g": 210,
+        "gorduras_g": 87,
+        "fibras_g": 32
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 8.0,
+        "calcio_mg": 1037,
+        "vitamina_c_mg": 94,
+        "vitamina_d_ug": 17,
+        "potassio_mg": 4449,
+        "sodio_mg": 1705
+      }
+    },
+    {
+      "nome": "Stephany Costa",
+      "peso": 108.7,
+      "altura": 1.86,
+      "idade": 31,
+      "meta_calorias": 2601,
+      "macro_nutrientes": {
+        "proteina_g": 129,
+        "carboidratos_g": 345,
+        "gorduras_g": 99,
+        "fibras_g": 15
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 12.4,
+        "calcio_mg": 1143,
+        "vitamina_c_mg": 88,
+        "vitamina_d_ug": 17,
+        "potassio_mg": 4270,
+        "sodio_mg": 1223
+      }
+    },
+    {
+      "nome": "Ana Carolina das Neves",
+      "peso": 87.8,
+      "altura": 1.7,
+      "idade": 44,
+      "meta_calorias": 2804,
+      "macro_nutrientes": {
+        "proteina_g": 61,
+        "carboidratos_g": 265,
+        "gorduras_g": 99,
+        "fibras_g": 31
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.6,
+        "calcio_mg": 814,
+        "vitamina_c_mg": 63,
+        "vitamina_d_ug": 6,
+        "potassio_mg": 2736,
+        "sodio_mg": 1295
+      }
+    },
+    {
+      "nome": "Maitê Nunes",
+      "peso": 101.9,
+      "altura": 1.58,
+      "idade": 60,
+      "meta_calorias": 2133,
+      "macro_nutrientes": {
+        "proteina_g": 152,
+        "carboidratos_g": 295,
+        "gorduras_g": 46,
+        "fibras_g": 28
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.7,
+        "calcio_mg": 904,
+        "vitamina_c_mg": 89,
+        "vitamina_d_ug": 12,
+        "potassio_mg": 4049,
+        "sodio_mg": 1740
+      }
+    },
+    {
+      "nome": "Augusto Lopes",
+      "peso": 50.4,
+      "altura": 1.89,
+      "idade": 36,
+      "meta_calorias": 2061,
+      "macro_nutrientes": {
+        "proteina_g": 79,
+        "carboidratos_g": 339,
+        "gorduras_g": 48,
+        "fibras_g": 34
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 10.2,
+        "calcio_mg": 845,
+        "vitamina_c_mg": 105,
+        "vitamina_d_ug": 18,
+        "potassio_mg": 4561,
+        "sodio_mg": 2055
+      }
+    },
+    {
+      "nome": "João Miguel Farias",
+      "peso": 74.8,
+      "altura": 1.86,
+      "idade": 65,
+      "meta_calorias": 2644,
+      "macro_nutrientes": {
+        "proteina_g": 175,
+        "carboidratos_g": 233,
+        "gorduras_g": 54,
+        "fibras_g": 18
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 11.9,
+        "calcio_mg": 843,
+        "vitamina_c_mg": 102,
+        "vitamina_d_ug": 5,
+        "potassio_mg": 2660,
+        "sodio_mg": 1660
+      }
+    },
+    {
+      "nome": "Alice Sales",
+      "peso": 62.6,
+      "altura": 1.82,
+      "idade": 44,
+      "meta_calorias": 2087,
+      "macro_nutrientes": {
+        "proteina_g": 113,
+        "carboidratos_g": 313,
+        "gorduras_g": 63,
+        "fibras_g": 19
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 9.9,
+        "calcio_mg": 1098,
+        "vitamina_c_mg": 102,
+        "vitamina_d_ug": 19,
+        "potassio_mg": 2915,
+        "sodio_mg": 1536
+      }
+    },
+    {
+      "nome": "Luiz Henrique Freitas",
+      "peso": 59.5,
+      "altura": 1.57,
+      "idade": 27,
+      "meta_calorias": 2696,
+      "macro_nutrientes": {
+        "proteina_g": 113,
+        "carboidratos_g": 213,
+        "gorduras_g": 93,
+        "fibras_g": 40
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 16.6,
+        "calcio_mg": 842,
+        "vitamina_c_mg": 112,
+        "vitamina_d_ug": 11,
+        "potassio_mg": 2611,
+        "sodio_mg": 1595
+      }
+    },
+    {
+      "nome": "Rodrigo Aragão",
+      "peso": 77.9,
+      "altura": 1.56,
+      "idade": 51,
+      "meta_calorias": 1734,
+      "macro_nutrientes": {
+        "proteina_g": 57,
+        "carboidratos_g": 207,
+        "gorduras_g": 80,
+        "fibras_g": 27
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 17.1,
+        "calcio_mg": 846,
+        "vitamina_c_mg": 118,
+        "vitamina_d_ug": 10,
+        "potassio_mg": 2663,
+        "sodio_mg": 1218
+      }
+    },
+    {
+      "nome": "Davi Luiz Pires",
+      "peso": 67.6,
+      "altura": 1.58,
+      "idade": 41,
+      "meta_calorias": 1784,
+      "macro_nutrientes": {
+        "proteina_g": 110,
+        "carboidratos_g": 212,
+        "gorduras_g": 52,
+        "fibras_g": 36
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.7,
+        "calcio_mg": 1109,
+        "vitamina_c_mg": 85,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 4294,
+        "sodio_mg": 1266
+      }
+    },
+    {
+      "nome": "Francisco Rezende",
+      "peso": 74.9,
+      "altura": 1.82,
+      "idade": 35,
+      "meta_calorias": 1709,
+      "macro_nutrientes": {
+        "proteina_g": 117,
+        "carboidratos_g": 278,
+        "gorduras_g": 69,
+        "fibras_g": 16
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.2,
+        "calcio_mg": 873,
+        "vitamina_c_mg": 60,
+        "vitamina_d_ug": 11,
+        "potassio_mg": 3149,
+        "sodio_mg": 1989
+      }
+    },
+    {
+      "nome": "Juan Cardoso",
+      "peso": 67.0,
+      "altura": 1.69,
+      "idade": 70,
+      "meta_calorias": 2403,
+      "macro_nutrientes": {
+        "proteina_g": 169,
+        "carboidratos_g": 178,
+        "gorduras_g": 55,
+        "fibras_g": 37
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.2,
+        "calcio_mg": 895,
+        "vitamina_c_mg": 75,
+        "vitamina_d_ug": 8,
+        "potassio_mg": 4525,
+        "sodio_mg": 1539
+      }
+    },
+    {
+      "nome": "Leandro Sales",
+      "peso": 50.0,
+      "altura": 1.62,
+      "idade": 63,
+      "meta_calorias": 1876,
+      "macro_nutrientes": {
+        "proteina_g": 55,
+        "carboidratos_g": 337,
+        "gorduras_g": 60,
+        "fibras_g": 17
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.5,
+        "calcio_mg": 1030,
+        "vitamina_c_mg": 104,
+        "vitamina_d_ug": 10,
+        "potassio_mg": 3318,
+        "sodio_mg": 1365
+      }
+    },
+    {
+      "nome": "Valentina Pinto",
+      "peso": 107.6,
+      "altura": 1.6,
+      "idade": 62,
+      "meta_calorias": 1806,
+      "macro_nutrientes": {
+        "proteina_g": 142,
+        "carboidratos_g": 295,
+        "gorduras_g": 72,
+        "fibras_g": 27
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 12.5,
+        "calcio_mg": 991,
+        "vitamina_c_mg": 76,
+        "vitamina_d_ug": 15,
+        "potassio_mg": 2680,
+        "sodio_mg": 2285
+      }
+    },
+    {
+      "nome": "Dr. Isaac Fernandes",
+      "peso": 82.5,
+      "altura": 1.95,
+      "idade": 56,
+      "meta_calorias": 1762,
+      "macro_nutrientes": {
+        "proteina_g": 79,
+        "carboidratos_g": 171,
+        "gorduras_g": 98,
+        "fibras_g": 22
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.8,
+        "calcio_mg": 991,
+        "vitamina_c_mg": 105,
+        "vitamina_d_ug": 6,
+        "potassio_mg": 4270,
+        "sodio_mg": 1769
+      }
+    },
+    {
+      "nome": "Laís Nogueira",
+      "peso": 94.5,
+      "altura": 1.88,
+      "idade": 69,
+      "meta_calorias": 2979,
+      "macro_nutrientes": {
+        "proteina_g": 53,
+        "carboidratos_g": 312,
+        "gorduras_g": 65,
+        "fibras_g": 26
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 17.1,
+        "calcio_mg": 997,
+        "vitamina_c_mg": 74,
+        "vitamina_d_ug": 19,
+        "potassio_mg": 3091,
+        "sodio_mg": 1333
+      }
+    },
+    {
+      "nome": "Srta. Isabel Vieira",
+      "peso": 68.3,
+      "altura": 1.8,
+      "idade": 51,
+      "meta_calorias": 2044,
+      "macro_nutrientes": {
+        "proteina_g": 112,
+        "carboidratos_g": 320,
+        "gorduras_g": 82,
+        "fibras_g": 39
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.9,
+        "calcio_mg": 1172,
+        "vitamina_c_mg": 86,
+        "vitamina_d_ug": 9,
+        "potassio_mg": 3127,
+        "sodio_mg": 2128
+      }
+    },
+    {
+      "nome": "Joaquim Nascimento",
+      "peso": 68.5,
+      "altura": 1.69,
+      "idade": 49,
+      "meta_calorias": 2453,
+      "macro_nutrientes": {
+        "proteina_g": 134,
+        "carboidratos_g": 384,
+        "gorduras_g": 82,
+        "fibras_g": 17
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 17.8,
+        "calcio_mg": 1197,
+        "vitamina_c_mg": 115,
+        "vitamina_d_ug": 7,
+        "potassio_mg": 3548,
+        "sodio_mg": 1805
+      }
+    },
+    {
+      "nome": "Arthur da Paz",
+      "peso": 99.9,
+      "altura": 1.87,
+      "idade": 39,
+      "meta_calorias": 1843,
+      "macro_nutrientes": {
+        "proteina_g": 132,
+        "carboidratos_g": 309,
+        "gorduras_g": 48,
+        "fibras_g": 37
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.3,
+        "calcio_mg": 1152,
+        "vitamina_c_mg": 76,
+        "vitamina_d_ug": 13,
+        "potassio_mg": 2533,
+        "sodio_mg": 1698
+      }
+    },
+    {
+      "nome": "Bernardo da Rocha",
+      "peso": 52.3,
+      "altura": 1.65,
+      "idade": 31,
+      "meta_calorias": 2241,
+      "macro_nutrientes": {
+        "proteina_g": 87,
+        "carboidratos_g": 264,
+        "gorduras_g": 40,
+        "fibras_g": 21
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 9.9,
+        "calcio_mg": 801,
+        "vitamina_c_mg": 98,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 3736,
+        "sodio_mg": 1359
+      }
+    },
+    {
+      "nome": "Diego da Conceição",
+      "peso": 74.8,
+      "altura": 1.56,
+      "idade": 22,
+      "meta_calorias": 2865,
+      "macro_nutrientes": {
+        "proteina_g": 178,
+        "carboidratos_g": 160,
+        "gorduras_g": 58,
+        "fibras_g": 21
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 10.9,
+        "calcio_mg": 1166,
+        "vitamina_c_mg": 95,
+        "vitamina_d_ug": 14,
+        "potassio_mg": 3370,
+        "sodio_mg": 2246
+      }
+    },
+    {
+      "nome": "Lucas Melo",
+      "peso": 70.0,
+      "altura": 1.93,
+      "idade": 22,
+      "meta_calorias": 1634,
+      "macro_nutrientes": {
+        "proteina_g": 68,
+        "carboidratos_g": 231,
+        "gorduras_g": 81,
+        "fibras_g": 30
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.0,
+        "calcio_mg": 969,
+        "vitamina_c_mg": 92,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 2714,
+        "sodio_mg": 2218
+      }
+    },
+    {
+      "nome": "Pedro Ribeiro",
+      "peso": 106.3,
+      "altura": 1.79,
+      "idade": 69,
+      "meta_calorias": 2103,
+      "macro_nutrientes": {
+        "proteina_g": 179,
+        "carboidratos_g": 238,
+        "gorduras_g": 80,
+        "fibras_g": 24
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 11.0,
+        "calcio_mg": 1178,
+        "vitamina_c_mg": 120,
+        "vitamina_d_ug": 19,
+        "potassio_mg": 4231,
+        "sodio_mg": 2099
+      }
+    },
+    {
+      "nome": "Srta. Isabel Rocha",
+      "peso": 59.3,
+      "altura": 1.62,
+      "idade": 46,
+      "meta_calorias": 2108,
+      "macro_nutrientes": {
+        "proteina_g": 155,
+        "carboidratos_g": 298,
+        "gorduras_g": 49,
+        "fibras_g": 28
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.3,
+        "calcio_mg": 1033,
+        "vitamina_c_mg": 92,
+        "vitamina_d_ug": 7,
+        "potassio_mg": 4111,
+        "sodio_mg": 2026
+      }
+    },
+    {
+      "nome": "Alexandre Farias",
+      "peso": 97.4,
+      "altura": 1.79,
+      "idade": 48,
+      "meta_calorias": 2240,
+      "macro_nutrientes": {
+        "proteina_g": 108,
+        "carboidratos_g": 332,
+        "gorduras_g": 78,
+        "fibras_g": 33
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.4,
+        "calcio_mg": 1037,
+        "vitamina_c_mg": 62,
+        "vitamina_d_ug": 10,
+        "potassio_mg": 3776,
+        "sodio_mg": 1941
+      }
+    },
+    {
+      "nome": "Sra. Evelyn Campos",
+      "peso": 51.5,
+      "altura": 1.65,
+      "idade": 70,
+      "meta_calorias": 1624,
+      "macro_nutrientes": {
+        "proteina_g": 131,
+        "carboidratos_g": 218,
+        "gorduras_g": 61,
+        "fibras_g": 39
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.4,
+        "calcio_mg": 1068,
+        "vitamina_c_mg": 73,
+        "vitamina_d_ug": 15,
+        "potassio_mg": 3972,
+        "sodio_mg": 1377
+      }
+    },
+    {
+      "nome": "Leandro Oliveira",
+      "peso": 99.0,
+      "altura": 1.59,
+      "idade": 69,
+      "meta_calorias": 1888,
+      "macro_nutrientes": {
+        "proteina_g": 54,
+        "carboidratos_g": 206,
+        "gorduras_g": 58,
+        "fibras_g": 36
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 9.5,
+        "calcio_mg": 992,
+        "vitamina_c_mg": 118,
+        "vitamina_d_ug": 13,
+        "potassio_mg": 4588,
+        "sodio_mg": 2046
+      }
+    },
+    {
+      "nome": "Júlia Ferreira",
+      "peso": 103.4,
+      "altura": 1.66,
+      "idade": 47,
+      "meta_calorias": 2406,
+      "macro_nutrientes": {
+        "proteina_g": 112,
+        "carboidratos_g": 288,
+        "gorduras_g": 98,
+        "fibras_g": 26
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 16.9,
+        "calcio_mg": 989,
+        "vitamina_c_mg": 107,
+        "vitamina_d_ug": 18,
+        "potassio_mg": 2603,
+        "sodio_mg": 1267
+      }
+    },
+    {
+      "nome": "Nathan Rocha",
+      "peso": 83.9,
+      "altura": 1.7,
+      "idade": 44,
+      "meta_calorias": 2699,
+      "macro_nutrientes": {
+        "proteina_g": 111,
+        "carboidratos_g": 207,
+        "gorduras_g": 79,
+        "fibras_g": 34
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 11.8,
+        "calcio_mg": 1133,
+        "vitamina_c_mg": 110,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 4132,
+        "sodio_mg": 1758
+      }
+    },
+    {
+      "nome": "Yuri Nascimento",
+      "peso": 92.8,
+      "altura": 1.79,
+      "idade": 27,
+      "meta_calorias": 2146,
+      "macro_nutrientes": {
+        "proteina_g": 82,
+        "carboidratos_g": 195,
+        "gorduras_g": 89,
+        "fibras_g": 17
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 9.7,
+        "calcio_mg": 1134,
+        "vitamina_c_mg": 61,
+        "vitamina_d_ug": 8,
+        "potassio_mg": 4672,
+        "sodio_mg": 2259
+      }
+    },
+    {
+      "nome": "Theo Pereira",
+      "peso": 73.7,
+      "altura": 1.6,
+      "idade": 33,
+      "meta_calorias": 2259,
+      "macro_nutrientes": {
+        "proteina_g": 85,
+        "carboidratos_g": 289,
+        "gorduras_g": 43,
+        "fibras_g": 29
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 16.5,
+        "calcio_mg": 1141,
+        "vitamina_c_mg": 119,
+        "vitamina_d_ug": 11,
+        "potassio_mg": 4042,
+        "sodio_mg": 1340
+      }
+    },
+    {
+      "nome": "Mirella Azevedo",
+      "peso": 108.7,
+      "altura": 1.9,
+      "idade": 55,
+      "meta_calorias": 2148,
+      "macro_nutrientes": {
+        "proteina_g": 71,
+        "carboidratos_g": 278,
+        "gorduras_g": 53,
+        "fibras_g": 30
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 8.1,
+        "calcio_mg": 1167,
+        "vitamina_c_mg": 105,
+        "vitamina_d_ug": 5,
+        "potassio_mg": 4666,
+        "sodio_mg": 1362
+      }
+    },
+    {
+      "nome": "Elisa Ribeiro",
+      "peso": 71.5,
+      "altura": 1.56,
+      "idade": 54,
+      "meta_calorias": 2812,
+      "macro_nutrientes": {
+        "proteina_g": 164,
+        "carboidratos_g": 200,
+        "gorduras_g": 100,
+        "fibras_g": 36
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 9.6,
+        "calcio_mg": 1050,
+        "vitamina_c_mg": 112,
+        "vitamina_d_ug": 12,
+        "potassio_mg": 4657,
+        "sodio_mg": 2007
+      }
+    },
+    {
+      "nome": "Vitor Novaes",
+      "peso": 55.3,
+      "altura": 1.78,
+      "idade": 53,
+      "meta_calorias": 2375,
+      "macro_nutrientes": {
+        "proteina_g": 124,
+        "carboidratos_g": 290,
+        "gorduras_g": 53,
+        "fibras_g": 30
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 12.8,
+        "calcio_mg": 805,
+        "vitamina_c_mg": 89,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 3269,
+        "sodio_mg": 1547
+      }
+    },
+    {
+      "nome": "Sr. Lucca Costa",
+      "peso": 78.1,
+      "altura": 1.71,
+      "idade": 68,
+      "meta_calorias": 1608,
+      "macro_nutrientes": {
+        "proteina_g": 150,
+        "carboidratos_g": 388,
+        "gorduras_g": 92,
+        "fibras_g": 31
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 10.4,
+        "calcio_mg": 1084,
+        "vitamina_c_mg": 80,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 2970,
+        "sodio_mg": 2128
+      }
+    },
+    {
+      "nome": "Juliana Carvalho",
+      "peso": 100.8,
+      "altura": 1.56,
+      "idade": 32,
+      "meta_calorias": 2599,
+      "macro_nutrientes": {
+        "proteina_g": 79,
+        "carboidratos_g": 212,
+        "gorduras_g": 67,
+        "fibras_g": 27
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 9.7,
+        "calcio_mg": 908,
+        "vitamina_c_mg": 83,
+        "vitamina_d_ug": 11,
+        "potassio_mg": 4252,
+        "sodio_mg": 1268
+      }
+    },
+    {
+      "nome": "Maria Eduarda Nascimento",
+      "peso": 92.2,
+      "altura": 1.74,
+      "idade": 22,
+      "meta_calorias": 2373,
+      "macro_nutrientes": {
+        "proteina_g": 140,
+        "carboidratos_g": 295,
+        "gorduras_g": 57,
+        "fibras_g": 25
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 11.7,
+        "calcio_mg": 979,
+        "vitamina_c_mg": 75,
+        "vitamina_d_ug": 7,
+        "potassio_mg": 4575,
+        "sodio_mg": 1236
+      }
+    },
+    {
+      "nome": "Sophie Campos",
+      "peso": 50.8,
+      "altura": 1.63,
+      "idade": 51,
+      "meta_calorias": 2435,
+      "macro_nutrientes": {
+        "proteina_g": 72,
+        "carboidratos_g": 329,
+        "gorduras_g": 86,
+        "fibras_g": 18
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.7,
+        "calcio_mg": 859,
+        "vitamina_c_mg": 106,
+        "vitamina_d_ug": 10,
+        "potassio_mg": 4240,
+        "sodio_mg": 1557
+      }
+    },
+    {
+      "nome": "Calebe Freitas",
+      "peso": 80.3,
+      "altura": 1.94,
+      "idade": 20,
+      "meta_calorias": 1739,
+      "macro_nutrientes": {
+        "proteina_g": 125,
+        "carboidratos_g": 190,
+        "gorduras_g": 49,
+        "fibras_g": 30
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.6,
+        "calcio_mg": 1104,
+        "vitamina_c_mg": 107,
+        "vitamina_d_ug": 12,
+        "potassio_mg": 4475,
+        "sodio_mg": 2069
+      }
+    },
+    {
+      "nome": "Leandro Monteiro",
+      "peso": 80.9,
+      "altura": 1.62,
+      "idade": 51,
+      "meta_calorias": 2578,
+      "macro_nutrientes": {
+        "proteina_g": 167,
+        "carboidratos_g": 293,
+        "gorduras_g": 42,
+        "fibras_g": 27
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 12.9,
+        "calcio_mg": 1139,
+        "vitamina_c_mg": 86,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 3551,
+        "sodio_mg": 2190
+      }
+    },
+    {
+      "nome": "Evelyn da Cruz",
+      "peso": 86.7,
+      "altura": 1.91,
+      "idade": 59,
+      "meta_calorias": 1928,
+      "macro_nutrientes": {
+        "proteina_g": 72,
+        "carboidratos_g": 178,
+        "gorduras_g": 93,
+        "fibras_g": 20
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 11.2,
+        "calcio_mg": 1144,
+        "vitamina_c_mg": 86,
+        "vitamina_d_ug": 10,
+        "potassio_mg": 3190,
+        "sodio_mg": 1785
+      }
+    },
+    {
+      "nome": "Marina Souza",
+      "peso": 69.6,
+      "altura": 1.8,
+      "idade": 54,
+      "meta_calorias": 2812,
+      "macro_nutrientes": {
+        "proteina_g": 75,
+        "carboidratos_g": 167,
+        "gorduras_g": 97,
+        "fibras_g": 32
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.5,
+        "calcio_mg": 1004,
+        "vitamina_c_mg": 82,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 3361,
+        "sodio_mg": 1643
+      }
+    },
+    {
+      "nome": "Ana Clara Mendes",
+      "peso": 85.1,
+      "altura": 1.64,
+      "idade": 29,
+      "meta_calorias": 2389,
+      "macro_nutrientes": {
+        "proteina_g": 149,
+        "carboidratos_g": 177,
+        "gorduras_g": 67,
+        "fibras_g": 22
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 17.4,
+        "calcio_mg": 1056,
+        "vitamina_c_mg": 72,
+        "vitamina_d_ug": 14,
+        "potassio_mg": 3812,
+        "sodio_mg": 1648
+      }
+    },
+    {
+      "nome": "Lucca Rodrigues",
+      "peso": 71.5,
+      "altura": 1.82,
+      "idade": 67,
+      "meta_calorias": 2247,
+      "macro_nutrientes": {
+        "proteina_g": 178,
+        "carboidratos_g": 270,
+        "gorduras_g": 96,
+        "fibras_g": 39
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 16.3,
+        "calcio_mg": 1193,
+        "vitamina_c_mg": 79,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 4342,
+        "sodio_mg": 2137
+      }
+    },
+    {
+      "nome": "Julia da Mota",
+      "peso": 87.8,
+      "altura": 1.62,
+      "idade": 66,
+      "meta_calorias": 2561,
+      "macro_nutrientes": {
+        "proteina_g": 136,
+        "carboidratos_g": 382,
+        "gorduras_g": 79,
+        "fibras_g": 36
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 10.5,
+        "calcio_mg": 1061,
+        "vitamina_c_mg": 83,
+        "vitamina_d_ug": 19,
+        "potassio_mg": 3765,
+        "sodio_mg": 1506
+      }
+    },
+    {
+      "nome": "Catarina Carvalho",
+      "peso": 76.5,
+      "altura": 1.94,
+      "idade": 28,
+      "meta_calorias": 2653,
+      "macro_nutrientes": {
+        "proteina_g": 59,
+        "carboidratos_g": 178,
+        "gorduras_g": 74,
+        "fibras_g": 21
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 15.7,
+        "calcio_mg": 863,
+        "vitamina_c_mg": 94,
+        "vitamina_d_ug": 20,
+        "potassio_mg": 2529,
+        "sodio_mg": 1514
+      }
+    },
+    {
+      "nome": "Maria Clara Mendes",
+      "peso": 60.6,
+      "altura": 1.69,
+      "idade": 26,
+      "meta_calorias": 2993,
+      "macro_nutrientes": {
+        "proteina_g": 80,
+        "carboidratos_g": 158,
+        "gorduras_g": 84,
+        "fibras_g": 34
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 11.4,
+        "calcio_mg": 1086,
+        "vitamina_c_mg": 98,
+        "vitamina_d_ug": 5,
+        "potassio_mg": 3831,
+        "sodio_mg": 1814
+      }
+    },
+    {
+      "nome": "Beatriz Rodrigues",
+      "peso": 66.1,
+      "altura": 1.95,
+      "idade": 18,
+      "meta_calorias": 1664,
+      "macro_nutrientes": {
+        "proteina_g": 103,
+        "carboidratos_g": 198,
+        "gorduras_g": 57,
+        "fibras_g": 20
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.8,
+        "calcio_mg": 955,
+        "vitamina_c_mg": 105,
+        "vitamina_d_ug": 7,
+        "potassio_mg": 3663,
+        "sodio_mg": 2034
+      }
+    },
+    {
+      "nome": "Sr. Eduardo Barros",
+      "peso": 99.2,
+      "altura": 1.77,
+      "idade": 20,
+      "meta_calorias": 2508,
+      "macro_nutrientes": {
+        "proteina_g": 64,
+        "carboidratos_g": 250,
+        "gorduras_g": 72,
+        "fibras_g": 36
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 8.8,
+        "calcio_mg": 1047,
+        "vitamina_c_mg": 85,
+        "vitamina_d_ug": 16,
+        "potassio_mg": 2837,
+        "sodio_mg": 1249
+      }
+    },
+    {
+      "nome": "Breno Pinto",
+      "peso": 71.2,
+      "altura": 1.63,
+      "idade": 45,
+      "meta_calorias": 1885,
+      "macro_nutrientes": {
+        "proteina_g": 129,
+        "carboidratos_g": 244,
+        "gorduras_g": 91,
+        "fibras_g": 23
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 16.7,
+        "calcio_mg": 992,
+        "vitamina_c_mg": 75,
+        "vitamina_d_ug": 9,
+        "potassio_mg": 3920,
+        "sodio_mg": 1649
+      }
+    },
+    {
+      "nome": "Sra. Isadora Peixoto",
+      "peso": 58.4,
+      "altura": 1.57,
+      "idade": 33,
+      "meta_calorias": 2341,
+      "macro_nutrientes": {
+        "proteina_g": 108,
+        "carboidratos_g": 316,
+        "gorduras_g": 69,
+        "fibras_g": 20
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 10.2,
+        "calcio_mg": 996,
+        "vitamina_c_mg": 71,
+        "vitamina_d_ug": 5,
+        "potassio_mg": 4327,
+        "sodio_mg": 1311
+      }
+    },
+    {
+      "nome": "Eduardo da Paz",
+      "peso": 66.3,
+      "altura": 1.75,
+      "idade": 58,
+      "meta_calorias": 2079,
+      "macro_nutrientes": {
+        "proteina_g": 118,
+        "carboidratos_g": 338,
+        "gorduras_g": 51,
+        "fibras_g": 33
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 16.7,
+        "calcio_mg": 1194,
+        "vitamina_c_mg": 115,
+        "vitamina_d_ug": 13,
+        "potassio_mg": 4642,
+        "sodio_mg": 2121
+      }
+    },
+    {
+      "nome": "Eloah Monteiro",
+      "peso": 85.8,
+      "altura": 1.92,
+      "idade": 69,
+      "meta_calorias": 2412,
+      "macro_nutrientes": {
+        "proteina_g": 62,
+        "carboidratos_g": 368,
+        "gorduras_g": 57,
+        "fibras_g": 21
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 13.4,
+        "calcio_mg": 1185,
+        "vitamina_c_mg": 85,
+        "vitamina_d_ug": 16,
+        "potassio_mg": 2732,
+        "sodio_mg": 2268
+      }
+    },
+    {
+      "nome": "Clarice Barros",
+      "peso": 102.5,
+      "altura": 1.82,
+      "idade": 29,
+      "meta_calorias": 2196,
+      "macro_nutrientes": {
+        "proteina_g": 118,
+        "carboidratos_g": 234,
+        "gorduras_g": 74,
+        "fibras_g": 36
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 14.0,
+        "calcio_mg": 1148,
+        "vitamina_c_mg": 65,
+        "vitamina_d_ug": 9,
+        "potassio_mg": 2725,
+        "sodio_mg": 1320
+      }
+    },
+    {
+      "nome": "Nina Nascimento",
+      "peso": 57.4,
+      "altura": 1.71,
+      "idade": 57,
+      "meta_calorias": 2331,
+      "macro_nutrientes": {
+        "proteina_g": 96,
+        "carboidratos_g": 158,
+        "gorduras_g": 50,
+        "fibras_g": 16
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 18.0,
+        "calcio_mg": 872,
+        "vitamina_c_mg": 69,
+        "vitamina_d_ug": 12,
+        "potassio_mg": 4067,
+        "sodio_mg": 2133
+      }
+    },
+    {
+      "nome": "Matheus Moura",
+      "peso": 72.5,
+      "altura": 1.77,
+      "idade": 67,
+      "meta_calorias": 2837,
+      "macro_nutrientes": {
+        "proteina_g": 151,
+        "carboidratos_g": 335,
+        "gorduras_g": 61,
+        "fibras_g": 15
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 9.3,
+        "calcio_mg": 962,
+        "vitamina_c_mg": 82,
+        "vitamina_d_ug": 15,
+        "potassio_mg": 4562,
+        "sodio_mg": 1953
+      }
+    },
+    {
+      "nome": "Benjamin Farias",
+      "peso": 75.9,
+      "altura": 1.58,
+      "idade": 40,
+      "meta_calorias": 2778,
+      "macro_nutrientes": {
+        "proteina_g": 140,
+        "carboidratos_g": 169,
+        "gorduras_g": 82,
+        "fibras_g": 33
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 12.6,
+        "calcio_mg": 853,
+        "vitamina_c_mg": 76,
+        "vitamina_d_ug": 17,
+        "potassio_mg": 3168,
+        "sodio_mg": 1907
+      }
+    },
+    {
+      "nome": "Breno Cardoso",
+      "peso": 104.8,
+      "altura": 1.63,
+      "idade": 48,
+      "meta_calorias": 2995,
+      "macro_nutrientes": {
+        "proteina_g": 177,
+        "carboidratos_g": 177,
+        "gorduras_g": 91,
+        "fibras_g": 37
+      },
+      "micro_nutrientes": {
+        "ferro_mg": 12.4,
+        "calcio_mg": 818,
+        "vitamina_c_mg": 65,
+        "vitamina_d_ug": 18,
+        "potassio_mg": 4123,
+        "sodio_mg": 2122
+      }
+    }
+  ]
+}
