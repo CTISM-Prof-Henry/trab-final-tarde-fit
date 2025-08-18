@@ -46,21 +46,14 @@ Exemplo de como os dados serão salvos:
 
 ```json
 {
-  "usuario": {
-    "nome": "João Silva",
-    "meta_calorias": 2000
-  },
-  "refeicoes": [
-    {
-      "data": "2025-08-11",
-      "itens": [
-        { "alimento": "Arroz", "quantidade_g": 150, "calorias": 200 },
-        { "alimento": "Frango", "quantidade_g": 100, "calorias": 165 }
-      ],
-      "total_calorias": 365
+    "usuario": {
+      "nome": "João Silva",
+      "Peso":null,
+      "altura": null,
+      "meta_calorias": 2000,
+      "macro_nutientes" : null,
+      "micro_nutrientes": null,
+      "idade":  null
     }
-  ],
-  "historico": [
-    { "data": "2025-08-10", "total_calorias": 1850 }
-  ]
-}
+    
+  }
