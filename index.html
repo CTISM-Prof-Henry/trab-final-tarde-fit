@@ -1,52 +1,113 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="imagem/logo32x.png" alt="Bootstrap" width="30" height="24">
-                  </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sidebar Hover</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Seu CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="profile">
+      <img class="avatar" src="https://i.pravatar.cc/100?img=12" alt="Perfil">
+      <span class="name">Pedro</span>
+    </div>
+
+    <div class="group-title">Main</div>
+    <ul class="menu">
+      <li><a class="menu-item" href="index.html"><i class="bi bi-house"></i><span class="label">Início</span></a></li>
+      <li><a class="menu-item" href="cadastrar-alimentos.html"><i class="bi bi-apple"></i><span class="label">Cadastrar Alimentos</span></a></li>
+      <li><a class="menu-item" href="simular-dieta.html"><i class="bi bi-bar-chart"></i><span class="label">Simular Dieta</span></a></li>
+      <li><a class="menu-item" href="historico.html"><i class="bi bi-clock-history"></i><span class="label">Histórico</span></a></li>
+      <li><a class="menu-item" href="sobre.html"><i class="bi bi-info-circle"></i><span class="label">Sobre</span></a></li>
+    </ul>
+   
+    <div class="group-title">Conta</div>
+    <ul class="menu">
+      <li><a class="menu-item logout" href="login.html"><i class="bi bi-box-arrow-right"></i><span class="label">Sair</span></a></li>
+    </ul>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    
+    <!-- Pesquisa -->
+    <div class="search">
+      <div class="inputGroup">
+        <input type="text" name="text" required>
+        <label>Pesquisar...</label>
       </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-  </body>
+    </div>
+    <!-- Card Infos -->
+    <div class="infos">
+      <h4 class="mb-3"><i class="bi bi-person-badge"></i> Informações do Cliente</h4>
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <div class="info-card">
+            <i class="bi bi-duffle-fill"></i>
+            <p><strong>Peso</strong><br>52.2 kg</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="info-card">
+            <i class="bi bi-rulers"></i>
+            <p><strong>Altura</strong><br>1.72 m</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="info-card">
+            <i class="bi bi-calendar-heart"></i>
+            <p><strong>Idade</strong><br>68 anos</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="info-card">
+            <i class="bi bi-fire"></i>
+            <p><strong>Meta</strong><br>2554 kcal</p>
+          </div>
+        </div>
+      </div>
+    
+      <h5 class="mt-4"><i class="bi bi-graph-up-arrow"></i> Macronutrientes</h5>
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <div class="info-card protein">
+            <i class="bi bi-egg-fried"></i>
+            <p><strong>Proteína</strong><br>61 g</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="info-card carbs">
+            <i class="bi bi-feather"></i>
+            <p><strong>Carboidratos</strong><br>305 g</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="info-card fat">
+            <i class="bi bi-droplet-half"></i>
+            <p><strong>Gorduras</strong><br>66 g</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="info-card fiber">
+            <i class="bi bi-apple"></i>
+            <p><strong>Fibras</strong><br>23 g</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+
+  <!-- Script -->
+  <script src="Fittrack.js"></script>
+</body>
 </html>
