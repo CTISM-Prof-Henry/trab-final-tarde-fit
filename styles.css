@@ -1,0 +1,278 @@
+:root {
+    --bg: #03080A;        /* Fundo da sidebar */
+    --bg-hover: #59665C;  /* Hover dos itens */
+    --txt: #FFFFFF;        /* Texto principal */
+    --txt-dim: #7FFF6C;    /* Texto secundário / group-title */
+    --radius: 22px;
+    --borrder: #2ecc71;
+    --shadow:   rgba(46, 204, 113, 0.5);
+    --protein: #27ae60;
+    --carbs: #2980b9;
+    --fat: #e67e22;
+    --fiber: #9b59b6;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    color: #fff;
+    display: flex;
+  }
+
+/* ===== Sidebar ===== */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 100px;
+    height: 63vh;
+    width: 68px;
+    background: var(--bg);
+    padding: 16px 10px;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    box-shadow: 0 15px 40px rgba(23, 9, 2, 0.25);
+    transition: width .25s ease;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* ====== SEARCH INPUT (com label animado + ícone) ====== */
+.search {
+    margin: 30px 0;
+    position: relative;
+    max-width: 320px;
+  }
+  
+  .inputGroup {
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+    width: 100%;
+    position: fixed;
+    top: 150px;
+    left: 120px;
+  }
+  /* ====== MAIN ====== */
+.main {
+    flex: 1;
+    padding: 40px;
+  }
+  .inputGroup input {
+    font-size: 16px;
+    padding: 14px 40px 14px 14px; /* espaço pro ícone */
+    border: 2px solid var(--borrder);
+     border-top-left-radius: 12px;
+    border-top-right-radius: 12px; 
+    background-color: #111;
+    color: var(--borrder);
+    width: 37%;
+    outline: none;
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputGroup input:focus {
+    border-color: var(--borrder);
+    box-shadow: 0 0 8px var(--shadow);
+  }
+  
+  .inputGroup label {
+    font-size: 16px;
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: #888;
+    background: #111;
+    padding: 0 6px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  /* Animação label */
+  .inputGroup input:focus ~ label,
+  .inputGroup input:valid ~ label {
+    top: -8px;
+    left: 12px;
+    font-size: 13px;
+    color: var(--borrder);
+  }
+  
+  /* Ícone dentro do input */
+  .search i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: var(--borrder);
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+/* ====== CARD INFOS ====== */
+.infos {
+    background: #0d0d0d;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+    color: #eee;
+    max-width: 900px;
+    position: relative;
+    top:  150px;
+    left: 80px;
+  }
+  
+  .infos h4, 
+  .infos h5 {
+    color: var(--borrder);
+    font-weight: bold;
+  }
+  
+  .info-card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .info-card i {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: var(--borrder);
+  }
+  
+  .info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+  }
+  
+  /* cores personalizadas por nutriente */
+  .info-card.protein i { color: var(--protein); }
+  .info-card.carbs i { color: var(--carbs); }
+  .info-card.fat i { color: var(--fat); }
+  .info-card.fiber i { color: var(--fiber); }
+  
+
+.sidebar.expanded {
+    width: 280px;
+}
+
+/* ===== Profile ===== */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+    padding: 8px 10px;
+    margin-bottom: 12px;
+}
+.search  input{
+    position: fixed;
+    outline: none;
+    border-radius: 22px;
+    border: none;
+    overflow: hidden;
+}
+/* From Uiverse.io by Maximinodotpy */ 
+/* From Uiverse.io by ozgeozkaraa01 */ 
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    top: 2px;
+    position: relative;
+    right: 12px;
+}
+
+.name {
+    font-weight: 600;
+    white-space: nowrap;
+    top: 2px;
+    position: relative;
+    left: 10px;
+}
+
+.group-title {
+    color: var(--txt-dim);
+    font-size: 12px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    margin: 16px 8px 8px;
+    transition: opacity .2s ease;
+    bottom: 3px;
+    position: relative;
+}
+
+/* ===== Menu ===== */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: var(--txt);
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 12px;
+    white-space: nowrap;
+    transition: background .2s ease, color .2s ease;
+    bottom: 11px;
+    position: relative;
+}
+
+.menu-item:hover {
+    background: var(--bg-hover);
+    color: #ffffff;
+}
+
+.menu-item .bi {
+    font-size: 20px;
+}
+.menu-item .bi:hover {
+    color: #FE630A;
+}
+/* ===== Estado FECHADO ===== */
+.sidebar:not(.expanded) .name,
+.sidebar:not(.expanded) .label,
+.sidebar:not(.expanded) .group-title {
+    opacity: 0;
+    width: 0;
+    margin: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transform: translateX(-8px);
+}
+
+.sidebar:not(.expanded) .menu-item {
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/* ===== Estado ABERTO ===== */
+.sidebar.expanded .name,
+.sidebar.expanded .label,
+.sidebar.expanded .group-title {
+    opacity: 1;
+    width: auto;
+    transform: none;
+}
+
+.menu-item.logout {
+    color: #FE630A; /* Laranja forte para logout */
+}
+
+.menu-item.logout:hover {
+    background: #fe630aa9;
+    color: #FFFFFF;
+}
