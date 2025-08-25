@@ -38,15 +38,11 @@ O projeto será construído **em ciclos incrementais**, permitindo entregas parc
 - **Design:** Interface intuitiva com foco em usabilidade.
 - **Gráficos:** Biblioteca como Chart.js (opcional).
 - **Cores**:
-- Laranja (#FF7043) – energia, metabolismo, movimento.
-
-Verde Limão (#9CCC65) – vitalidade, frescor.
-
-Turquesa (#4DD0E1) – inovação, leveza.
-
-Branco (#FAFAFA) – clareza.
-
-Cinza Médio (#9E9E9E) – contraste elegante. 
+  - Laranja (#FF7043) – energia, metabolismo, movimento.
+  - Verde Limão (#9CCC65) – vitalidade, frescor.
+  - Turquesa (#4DD0E1) – inovação, leveza.
+  - Branco (#FAFAFA) – clareza.
+  - Cinza Médio (#9E9E9E) – contraste elegante. 
 
 ---
 
