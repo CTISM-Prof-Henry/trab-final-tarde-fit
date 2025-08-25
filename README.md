@@ -42,7 +42,7 @@ O projeto será construído **em ciclos incrementais**, permitindo entregas parc
   - Verde Limão (#9CCC65) – vitalidade, frescor.
   - Turquesa (#4DD0E1) – inovação, leveza.
   - Branco (#FAFAFA) – clareza.
-  - Cinza Médio (#9E9E9E) – contraste elegante. 
+  - Cinza Médio (#2D2D2D) – contraste elegante. 
 
 ---
 
