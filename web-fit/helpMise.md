@@ -20,10 +20,10 @@ curl https://mise.run | sh
 ```
 Para Windows (usando winget)
 ```Bash
-winget install mise.rtx
+winget install jdx.mise
 ```
 
-💡 Importante: Após a instalação, siga as instruções no terminal para adicionar o mise ao seu shell (ex: echo 'eval "$(mise activate bash)"' >> ~/.bashrc). Isso garante que ele funcione automaticamente. Para mais detalhes, consulte a [documentação oficial do mise](https://mise.jdx.dev/getting-started.html)
+💡 Importante: Após a instalação, siga as instruções no terminal para adicionar o mise ao seu shell (ex: echo 'eval "$(mise activate bash)"' >> ~/.bashrc). Isso garante que ele funcione automaticamente. Para mais detalhes e configuração no windows, consulte a [documentação oficial do mise](https://mise.jdx.dev/getting-started.html)
 
 </details>
 
