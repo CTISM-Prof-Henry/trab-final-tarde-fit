@@ -36,7 +36,7 @@ jobs:
         working-directory: ./web-fit
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.web-fit/site/'
+          path: 'web-fit/site/'
 
       - name: Publica páginas HTML
         id: deployment
