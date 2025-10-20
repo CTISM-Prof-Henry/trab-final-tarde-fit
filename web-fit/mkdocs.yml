@@ -1,5 +1,28 @@
-site_name: Documentacao FIT
-theme: readthedocs
+site_name: Documentação FIT
+repo_url: https://github.com/CTISM-Prof-Henry/trab-final-tarde-fit
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette: 
+    - media: "(prefers-color-scheme)"
+      primary: black
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: light)"
+      primary: black
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: black
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+         
 markdown_extensions:
   - attr_list
   - footnotes
@@ -10,3 +33,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
