@@ -7,7 +7,21 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:web-fit": "node dist/web-fit/server/server.mjs"
+    "serve:ssr:web-fit": "node dist/web-fit/server/server.mjs",
+    "testq": "nyc qunit"
+  },
+  "nyc": {
+    "reporter": [
+      "text",
+      "html"
+    ],
+    "include": [
+      "src/**/*.js"
+    ],
+    "exclude": [
+      "test/**/*.js"
+    ],
+    "all": true
   },
   "prettier": {
     "printWidth": 100,
