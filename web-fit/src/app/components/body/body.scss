@@ -1,0 +1,36 @@
+:host {
+  display: block;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 2rem 0; 
+}
+
+$cor-saude-verde: #B2C2B1;
+$cor-saude-verde-escuro: #a1b1a0;
+
+.card {
+  border-radius: 8px; 
+}
+
+.card-title {
+  font-weight: 600;
+  color: #555;
+}
+
+.btn-primary {
+  background-color: $cor-saude-verde;
+  border-color: $cor-saude-verde;
+  font-weight: 600;
+  
+  &:hover, &:focus {
+    background-color: $cor-saude-verde-escuro;
+    border-color: $cor-saude-verde-escuro;
+    box-shadow: none;
+  }
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: $cor-saude-verde;
+  box-shadow: 0 0 0 0.25rem rgba(178, 194, 177, 0.4);
+}
