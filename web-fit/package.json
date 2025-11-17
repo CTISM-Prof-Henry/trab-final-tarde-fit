@@ -8,18 +8,27 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:web-fit": "node dist/web-fit/server/server.mjs",
-    "testq": "nyc qunit"
+    "testq": "env TS_NODE_PROJECT=test/tsconfig.json nyc qunit --require ts-node/register test/*.ts"
   },
   "nyc": {
     "reporter": [
       "text",
       "html"
     ],
+    "extension": [
+      ".ts"
+    ],
     "include": [
-      "src/**/*.js"
+      "src/app/services/calculadora.ts"
     ],
     "exclude": [
-      "test/**/*.js"
+      "test/**/*.ts",
+      "src/**/*.spec.ts",
+      "src/main.ts",
+      "src/main.server.ts"
+    ],
+    "require": [
+      "ts-node/register"
     ],
     "all": true
   },
@@ -59,10 +68,12 @@
     "@angular/cli": "^20.3.4",
     "@angular/compiler-cli": "^20.3.0",
     "@eslint/js": "^9.37.0",
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@tauri-apps/cli": "^2.9.4",
     "@types/express": "^5.0.1",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^20.17.19",
+    "@types/qunit": "^2.19.13",
     "eslint": "^9.37.0",
     "globals": "^16.4.0",
     "jasmine-core": "~5.9.0",
@@ -73,6 +84,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "qunit": "^2.24.2",
+    "ts-node": "^10.9.2",
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.46.1"
   }
