@@ -1,22 +1,21 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+
+import { CalculadoraFit, FormData, Resultados } from '../../services/calculadora';
 
 @Component({
   selector: 'app-body',
+  standalone: true,
   imports: [FormsModule, CommonModule],
   templateUrl: './body.html',
   styleUrl: './body.scss'
 })
 export class Body {
 
-  public formData: {
-    peso: number | null,
-    altura: number | null,
-    idade: number | null,
-    sexo: string,
-    nivelAtividade: string,
-  } = {
+  private calculadora = new CalculadoraFit();
+
+  public formData: FormData = {
     peso: null,
     altura: null,
     idade: null,
@@ -24,13 +23,7 @@ export class Body {
     nivelAtividade: ''
   };
 
-  public resultados: {
-    agua: number,
-    tmb: number,
-    get: number,
-    deficit: number,
-    metaCalorias: number
-  } = {
+  public resultados: Resultados = {
     agua: 0,
     tmb: 0,
     get: 0,
@@ -39,25 +32,21 @@ export class Body {
   };
 
   public calculado = false;
+  public errorMessage: string | null = null;
 
   constructor() { }
+
   public calcular(): void {
-    if (!this.formData.peso || !this.formData.altura || !this.formData.idade || !this.formData.sexo || !this.formData.nivelAtividade) {
-      alert("Por favor, preencha todos os campos.");
-      return;
-    }
+    try {
+      const novosResultados = this.calculadora.calcular(this.formData);
 
-    this.resultados.agua = (this.formData.peso * 35) / 1000;
+      this.resultados = novosResultados;
+      this.calculado = true;
+      this.errorMessage = null;
 
-    let tmb = 0;
-    if (this.formData.sexo === 'masculino') {
-      tmb = (10 * this.formData.peso) + (6.25 * this.formData.altura) - (5 * this.formData.idade) + 5;
-    } else {
-      tmb = (10 * this.formData.peso) + (6.25 * this.formData.altura) - (5 * this.formData.idade) - 161;
+    } catch (error) {
+      this.calculado = false;
+      this.errorMessage = (error as Error).message; // Exibe o erro
     }
-    this.resultados.tmb = tmb;
-    this.resultados.get = tmb * (+this.formData.nivelAtividade);
-    this.resultados.metaCalorias = this.resultados.get - this.resultados.deficit;
-    this.calculado = true;
   }
 }
