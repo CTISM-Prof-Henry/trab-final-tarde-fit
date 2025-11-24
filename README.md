@@ -10,7 +10,7 @@ Este repositório apresenta o projeto **Web Fit**, um exemplo de software desenv
 - [x] [Documentação no GitHub Pages com MKDocs](https://ctism-prof-henry.github.io/trab-final-tarde-fit/)
 - [x] [Testes unitários](https://github.com/CTISM-Prof-Henry/trab-final-tarde-fit/blob/main/web-fit/test/logic.ts)
 - [x] Linter com ESLint
-- [x] [Produto final (software)](#produto)
+- [x] [Produto final (software)](https://github.com/CTISM-Prof-Henry/trab-final-tarde-fit/releases/tag/app-v0.1.0)
 - [x] GitHub Actions para Documentação
 
 ## 🚀 Documentação e Execução
