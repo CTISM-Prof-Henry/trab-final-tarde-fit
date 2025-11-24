@@ -1,5 +1,6 @@
 // Interface entradas
 export interface FormData {
+  nome: string;
   peso: number | null;
   altura: number | null;
   idade: number | null;
