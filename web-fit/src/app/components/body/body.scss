@@ -1,36 +1,254 @@
+@use "sass:color";
+
 :host {
   display: block;
-  background-color: #f9f9f9;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
   min-height: 100vh;
-  padding: 2rem 0; 
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-$cor-saude-verde: #B2C2B1;
-$cor-saude-verde-escuro: #a1b1a0;
+$cor-primaria: #4a90e2;
+$cor-secundaria: #2c3e50;
+$cor-sucesso: #2ecc71;
+$cor-texto: #2c3e50;
+$cor-borda: #e0e6ed;
+$sombra: 0 10px 30px rgba(0, 0, 0, 0.05);
+$transicao: all 0.3s ease;
 
-.card {
-  border-radius: 8px; 
+#formularioCard {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+  box-shadow: $sombra;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.card-body {
+  padding: 2.5rem;
 }
 
 .card-title {
+  font-weight: 700;
+  color: $cor-secundaria;
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 1rem;
+  text-align: center;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: $cor-primaria;
+    border-radius: 3px;
+  }
+}
+
+.form-label {
   font-weight: 600;
-  color: #555;
+  color: $cor-secundaria;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.form-control,
+.form-select {
+  height: 48px;
+  border: 1px solid $cor-borda;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  transition: $transicao;
+  background-color: #f8fafc;
+  cursor: pointer;
+  
+  &:hover {
+    border-color: color.adjust($cor-borda, $lightness: -15%);
+  }
+  
+  &:focus {
+    border-color: $cor-primaria;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+    background-color: #fff;
+    cursor: text;
+  }
+  
+  &::placeholder {
+    color: #a0aec0;
+    font-size: 0.9rem;
+  }
+}
+
+.bi {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  background-color: $cor-primaria;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: $transicao;
+}
+
+/* Estilo específico para o seletor de nível de atividade */
+#atividade {
+  max-width: 100%;
+  width: auto;
+  display: inline-block;
+}
+
+/* Estilo específico para o seletor de sexo */
+.select-sexo {
+  min-width: 200px; /* Largura aumentada para melhor visualização */
+  width: auto !important;
+  display: inline-block;
+  
+  @media (max-width: 576px) {
+    width: 100% !important;
+  }
 }
 
 .btn-primary {
-  background-color: $cor-saude-verde;
-  border-color: $cor-saude-verde;
+  background-color: $cor-primaria;
+  border: none;
+  padding: 0.8rem 2rem;
   font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: $transicao;
+  margin-top: 1rem;
   
   &:hover, &:focus {
-    background-color: $cor-saude-verde-escuro;
-    border-color: $cor-saude-verde-escuro;
+    background-color: color.adjust($cor-primaria, $lightness: -10%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+  }
+  
+  &:active {
+    transform: translateY(0);
+  }
+  
+  &:disabled {
+    background-color: #a0aec0;
+    transform: none;
     box-shadow: none;
   }
 }
 
-.form-control:focus,
-.form-select:focus {
-  border-color: $cor-saude-verde;
-  box-shadow: 0 0 0 0.25rem rgba(178, 194, 177, 0.4);
+/* Estilos para a seção de resultados */
+#resultadoCard {
+  border: none;
+  border-radius: 12px;
+  background: white;
+  box-shadow: $sombra;
+  margin-top: 2rem;
+  overflow: hidden;
+  
+  .card-body {
+    padding: 2.5rem;
+  }
+  
+  .result-item {
+    margin-bottom: 1.5rem;
+    
+    .result-label {
+      display: block;
+      color: $cor-secundaria;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+    
+    .result-value {
+      color: $cor-primaria;
+      font-weight: 700;
+      font-size: 1.8rem;
+      display: block;
+    }
+    
+    .result-sublabel {
+      font-size: 0.85rem;
+      margin-top: 0.3rem;
+    }
+  }
+  
+  .alert {
+    background-color: #f8fafc;
+    border-left: 4px solid $cor-primaria;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+  }
+  
+  .list-group-item {
+    border: none;
+    border-bottom: 1px solid $cor-borda;
+    padding: 0.75rem 0;
+    font-size: 0.95rem;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+    
+    strong {
+      color: $cor-secundaria;
+    }
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .btn-primary {
+    width: 100%;
+  }
+}
+
+/* Estilo específico para selects */
+select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%234a90e2' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  padding-right: 2.5rem;
+}
+
+/* Para navegadores que não suportam appearance */
+select::-ms-expand {
+  display: none;
+}
+
+/* Efeito hover nos selects */
+select:hover {
+  border-color: color.adjust($cor-borda, $lightness: -20%);
+}
+
+/* Efeito focus nos selects */
+select:focus {
+  border-color: $cor-primaria;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+  outline: none;
 }

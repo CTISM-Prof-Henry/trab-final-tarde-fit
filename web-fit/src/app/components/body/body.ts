@@ -16,6 +16,7 @@ export class Body {
   private calculadora = new CalculadoraFit();
 
   public formData: FormData = {
+    nome: '',
     peso: null,
     altura: null,
     idade: null,
