@@ -1,5 +1,3 @@
-// Importa a classe de lógica pura e a interface
-// (Atenção ao caminho do ficheiro, ajuste se o seu for diferente)
 import { CalculadoraFit, FormData } from '../src/app/services/calculadora';
 
 QUnit.module('FitnessCalculator Logic', hooks => {
@@ -13,6 +11,7 @@ QUnit.module('FitnessCalculator Logic', hooks => {
     // Teste 1 > Calculo para sexo masculino
     QUnit.test('Deve calcular corretamente para sexo masculino (deficit padrão)', assert => {
         const formData: FormData = {
+            nome: "NOME",
             peso: 80,
             altura: 180,
             idade: 30,
@@ -32,6 +31,7 @@ QUnit.module('FitnessCalculator Logic', hooks => {
     // Teste 1 > Calculo para sexo feminino
     QUnit.test('Deve calcular corretamente para sexo feminino (deficit padrão)', assert => {
         const formData: FormData = {
+            nome: "NOME",
             peso: 60,
             altura: 165,
             idade: 25,
@@ -50,6 +50,7 @@ QUnit.module('FitnessCalculator Logic', hooks => {
     // Teste 3 > Valida se campo é nulo
     QUnit.test('Deve LANÇAR ERRO se o peso for nulo', assert => {
         const formData: FormData = {
+            nome: "NOME",
             peso: null,
             altura: 180,
             idade: 30,
@@ -68,6 +69,7 @@ QUnit.module('FitnessCalculator Logic', hooks => {
     QUnit.test('Deve LANÇAR ERRO se o sexo não for selecionado', assert => {
         // 1. Prepara (Arrange)
         const formData: FormData = {
+            nome: "NOME",
             peso: 80,
             altura: 180,
             idade: 30,
@@ -85,6 +87,7 @@ QUnit.module('FitnessCalculator Logic', hooks => {
     // Teste 5 > Validação (Valores Inválidos - Zero)
     QUnit.test('Deve LANÇAR ERRO se o peso for zero', assert => {
         const formData: FormData = {
+            nome: "NOME",
             peso: 0, //inválido
             altura: 180,
             idade: 30,
@@ -102,6 +105,7 @@ QUnit.module('FitnessCalculator Logic', hooks => {
     // Teste 6 > Validação (Valores Inválidos - Negativo)
     QUnit.test('Deve LANÇAR ERRO se a idade for negativa', assert => {
         const formData: FormData = {
+            nome: "NOME",
             peso: 80,
             altura: 180,
             idade: -30, //inválido
@@ -119,6 +123,7 @@ QUnit.module('FitnessCalculator Logic', hooks => {
     // Teste 7 > Funcionalidade (Deficit Customizado)
     QUnit.test('Deve calcular corretamente com um deficit customizado', assert => {
         const formData: FormData = {
+            nome: "NOME",
             peso: 80,
             altura: 180,
             idade: 30,
